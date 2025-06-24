@@ -35,54 +35,56 @@ Proyek ini membutuhkan:
 - **Programming Language**: Python
 - **Package Manager**: Conda
 
+---
+
 ### Installation
 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/nama-user/Monitoring_Ikan_Asin
+git clone https://github.com/Naufal-Azhar/Monitoring_Ikan_asin
+```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd Monitoring_Ikan_Asin
+cd Monitoring_Ikan_asin
+```
 
 3. **Install the dependencies:**
 
-```bash
-conda create -n ikan_env -f environment.yml
-conda activate ikan_env
-
-### Usage
-
-Untuk menjalankan sistem:
+Using [conda](https://conda.io/):
 
 ```bash
-conda activate ikan_env
-python main.py
+conda env create -f conda.yml
+```
 
-### Testing
+---
 
-Proyek ini menggunakan framework pytest untuk pengujian. jalankan perintah berikut:
+## Usage
+
+Run the project with:
+
+Using [conda](https://conda.io/):
 
 ```bash
-conda activate ikan_env
+conda activate {venv}
+python {entrypoint}
+```
+
+---
+
+## Testing
+
+Monitoring_Ikan_Asin uses the `{test_framework}` test framework. Run the test suite with:
+
+Using [conda](https://conda.io/):
+
+```bash
+conda activate {venv}
 pytest
+```
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[⬆ Return to Top](#monitoring_ikan_asin)
