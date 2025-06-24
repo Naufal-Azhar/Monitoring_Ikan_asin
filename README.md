@@ -1,6 +1,8 @@
 # MONITORING_IKAN_ASIN
 
 *Transforming Data into Smarter Fish Drying Decisions*
+Proyek ini diberikan dari dosen untuk mahasiswa agar bisa menerapkan 
+sistem IoT pada usaha yang bergerak di bidang maritim maritim 
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![Conda](https://img.shields.io/badge/package-conda-green)
